@@ -1,27 +1,34 @@
-# Exclude everything
-/*
+# VTES-Card-Scanner OBS Plugin
+# Exclude: build/, models/, vendor/, _deps/, *.so, *.dll, src/*.c (solo obs_vtes_source.c)
 
-# Except for default project files
-!/.github
-!/build-aux
-!/cmake
-!/data
-!/src
-!.clang-format
-!.cmake-format.json
-!.gitignore
-!buildspec.json
-!CMakeLists.txt
-!CMakePresets.json
-!LICENSE
-!README.md
-!/vendor
+# Build directories
+build/
+build-aux/
+cmake/
+vendor/
 
-# Exclude lock files
-*.lock.json
+# Dependencies
+_deps/
 
-# Exclude macOS legacy resource forks
+# Compiled binaries
+*.so
+*.dll
+*.a
+*.lib
+*.exe
+
+# Models (solo ruta, no archivo)
+models/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# OS files
 .DS_Store
+Thumbs.db
 
-# Exclude CMake build number cache
-/cmake/.CMakeBuildNumber
+# Except plugin files
+!src/obs_vtes_source.c
+!obs_vtes_source.json
