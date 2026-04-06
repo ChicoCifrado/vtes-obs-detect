@@ -4,6 +4,12 @@
 
 Este plugin para OBS es un fork de https://github.com/royshil/obs-detect
 
+---
+
+## 📌 Descripción
+
+Plugin OBS Studio para detectar cartas VTES en tiempo real usando YOLOv8. El plugin renderiza bounding boxes y overlay de información para cada carta detectada durante 10 segundos cuando aparece en el frame.
+
 **Versión:** 1.0.0
 
 **API:** OBS Studio 32.x
@@ -13,12 +19,6 @@ Este plugin para OBS es un fork de https://github.com/royshil/obs-detect
 **Compilación:** MinGW (Windows), GCC (Linux)
 
 **Tipos de Carta:** 14 tipos de cartas VTES
-
----
-
-## 📌 Descripción
-
-Plugin OBS Studio para detectar cartas VTES en tiempo real usando YOLOv8. El plugin renderiza bounding boxes y overlay de información para cada carta detectada durante 10 segundos cuando aparece en el frame.
 
 ### Tipos de Carta VTES
 
