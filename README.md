@@ -1,5 +1,9 @@
 # 🦞 VTES-Card-Scanner OBS Plugin
 
+## 📝 CRÉDITOS
+
+Este plugin para OBS es un fork de https://github.com/royshil/obs-detect
+
 **Versión:** 1.0.0
 
 **API:** OBS Studio 32.x
@@ -196,7 +200,8 @@ python3 -c "import cv2; cv2.dnn.readNetFromONNX('/mnt/e/VTES/yolov8m.onnx')"
 
 ## 📄 Licencia
 
-MIT License
+Licencia MIT
+Esta licencia permite reutilizar el software tanto en proyectos de software libre como en proyectos propietarios, sin obligación de publicar o compartir las modificaciones realizadas sobre el programa original.
 
 ---
 
